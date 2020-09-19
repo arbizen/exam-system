@@ -1,0 +1,56 @@
+.sidebar {
+    background: var(--sidebar-bg);
+    box-shadow: 0 1.5px 3.5px rgba(0,0,0,0.1);
+}
+
+.sidebar-title {
+    color: #fff;
+    margin: 20px 0 15px 12px;
+}
+
+.sidebar-item {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr;
+    padding: 8px 8px 8px 12px;
+    margin: 5px 0;
+    transition: background 0.5s;
+}
+
+.item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-icon-ion {
+    color: #fff;
+}
+
+.sidebar-text {
+    padding-left: 5px;
+}
+
+.sidebar-item.active {
+    background: #1face0d3;
+}
+
+.sidebar-item.active:hover {
+    background: #1face0d3;
+}
+
+.sidebar-item:hover {
+    background: rgba(0, 0, 0, 0.356);
+}
+
+.sidebar-item-links {
+    color: #fff;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.item-icon > ion-icon {
+    color: #fff;
+}

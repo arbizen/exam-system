@@ -1,0 +1,27 @@
+.clock-holder {
+    display: grid;
+    height: auto;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+.clock-block {
+    height: auto;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1.5px 3.5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: background .5s;
+}
+
+.clock-block:hover {
+    background: rgba(0, 0, 0, 0.157);
+}

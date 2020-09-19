@@ -1,0 +1,40 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    user-select: none;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 0.35fr 1.65fr;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+button {
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background:#1face09d;
+}

@@ -1,0 +1,90 @@
+
+.main-content {
+    padding: 18px;
+}
+
+/* Content title design */
+
+.content-title {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Message box design */
+
+.message-holder {
+    height:  auto;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1.5px 3.5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.message-holder:first-child {
+    margin-top: 0;
+}
+
+.message-holder:last-child {
+    margin-bottom: 0;
+}
+
+/* Content hader design */
+
+.content-header {
+    height: auto;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1.5px 3.5px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 8px 0;
+}
+
+.search-holder {
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+
+.search {
+    height: 100%;
+    width: 100%;
+    padding: 0 12px;
+    background: rgba(51, 51, 51, 0.116);
+}
+
+.search-icon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon > ion-icon {
+    color: rgba(51, 51, 51, 0.527);
+}
+
+.profile-picture > ion-icon {
+    height: 25px;
+    width: 25px;
+    color: rgba(51, 51, 51, 0.507);
+}
+
+.header-meta {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile-picture, .logout-button {
+    margin: 0 8px;
+}
+
+.logout {
+    height: 30px;
+    width: 60px;
+    background: #1FABE0;
+    color: #fff;
+}

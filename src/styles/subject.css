@@ -1,0 +1,62 @@
+.subjects {
+    padding: 10px 0;
+}
+
+.subject {
+    height: auto;
+    width: auto;
+    background: #fff;
+    box-shadow: 0 1.5px 3.5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+}
+
+.subject:hover {
+    box-shadow: 0 1.5px 3.5px rgba(0, 0, 0, 0.315);
+}
+
+.subject-image {
+    width: 100%;
+    height: auto;
+}
+
+.subject-meta {
+    padding: 15px;
+}
+
+.subject-title {
+    font-weight: bold;
+}
+
+.exam-info {
+    padding: 10px 0;
+    border-top: 1.5px solid rgba(128, 128, 128, 0.219);
+}
+
+.grey{
+    color: grey;
+    font-size: 0.8em;
+}
+
+.grey > ion-icon {
+    margin-right: 5px;
+}
+
+.semister {
+    font-size: 0.9em;
+}
+
+.about-exam {
+    font-size: 0.8em;
+    color: grey;
+}
+
+.exam-info.two {
+    border: none;
+}
+
+.subject-button {
+    height: 30px;
+    width: 65px;
+    background: #1FABE0;
+    color: #fff;
+}
